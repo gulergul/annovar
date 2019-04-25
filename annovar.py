@@ -64,13 +64,6 @@ def annotateWithTableAnnovar():
     return 0
 
 
-def read_annotation(avinput_file):
-    pass
-
-
-if __name__ == "__main__":
-    pass
-
 
 """
 Sample script for coding variant annotation:
