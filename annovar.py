@@ -48,10 +48,10 @@ def annotateWithTableAnnovar():
     allTypesOfOperationSplitAsString = ','.join(
         allTypesOfOperationSplit)
     allProtocolsSplitAsString = ','.join(allProtocolsSplit)
-    print("This is type of operation")
+    print("operation type")
     print(str(
         allTypesOfOperationSplitAsString))
-    print("These are the protocol/annotation type names")
+    print("protocol type or annotation name")
     print(str(allProtocolsSplitAsString))
     annovarScriptToExecute = (
                 "perl table_annovar.pl " + avinputReturned + "test.avinput " + humanDbDirPath + " -buildver " + buildVer + " -out "
